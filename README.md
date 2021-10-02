@@ -5,32 +5,32 @@ A quick aside: git and GitHub are not the same thing. Git is an open-source, ver
 ## Git and GitHub  
 Step1 - Install the Git  
 On your terminal enter  
-git --version  
+`git --version`  
 If you don’t have it installed already, it will prompt you to install it.
   
 Step2 - Create a local git repository 
 To begin, open up a terminal and move to where you want to place the project on your local machine using the cd (change directory) command.
 To initialize a git repository in the root of the folder, run the git init command:  
-git init
+`git init`
   
 Step3 - Add a new file to the repo  
 Go ahead and add a new file to the project, using any text editor you like or running a touch command. 
-touch mnelson.txt  
+`touch mnelson.txt`  
   
 Step4 - Add a file to the staging environment
 Add a file to the staging environment using the git add command. 
-git add  
-git status  
+`git add`  
+`git status`  
   
 Step5 - Create a commit  
 Run the command git commit -m "Your message about the commit"
-git commit -m "This is my first commit!"
+`git commit -m "This is my first commit!"`
   
 Step6 - Create a new branch  
 Now that you've made a new commit, let's try something a little more advanced.
 Say you want to make a new feature but are worried about making changes to the main project while developing the feature. This is where git branches come in. 
 Branches allow you to move back and forth between 'states' of a project. Official git docs describe branches this way: ‘A branch in Git is simply a lightweight movable pointer to one of these commits.’ For instance, if you want to add a new page to your website you can create a new branch just for that page without affecting the main part of the project. Once you're done with the page, you can merge your changes from your branch into the primary branch. When you create a new branch, Git keeps track of which commit your branch 'branched' off of, so it knows the history behind all the files.  
-git branch  
+`git branch`  
   
 Step7 - Create a new repository on GitHub  
 To create a new repo on GitHub, log in and go to the GitHub home page. You can find the “New repository” option under the “+” sign next to your profile picture, in the top right corner of the navbar. After clicking the button, GitHub will ask you to name your repo and provide a brief description.    
